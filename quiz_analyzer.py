@@ -9,7 +9,7 @@ print(f"""===== QUIZ SCORE REPORT =====
 Quiz Scores: {quiz}
 Number of Quizzes: {len(quiz)}
 Total Score: {sum(quiz)}
-Average Score: {sum(quiz)/len(quiz)}
+Average Score: {sum(quiz)/len(quiz):.2f}
 Highest Score: {max(quiz)}
 Lowest Score: {min(quiz)}
 Ascending: {sorted(quiz)}
